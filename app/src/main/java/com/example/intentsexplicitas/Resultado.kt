@@ -12,14 +12,9 @@ class Resultado : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_resultado)
 
-        val btnLink = findViewById<Button>(R.id.btnAbrirLink)
-
-        btnLink.setOnClickListener {
-            val url = "https://github.com/fabriciobrito01"
-
-            val intentLink = Intent(Intent.ACTION_VIEW)
-            intentLink.data = Uri.parse(url)
-
+        findViewById<Button>(R.id.btnAbrirLink).setOnClickListener {
+            val intentLink = Intent(Intent.ACTION_VIEW,
+                Uri.parse("https://github.com/fabriciobrito01/intentsExplicitas"))
             startActivity(intentLink)
         }
 
