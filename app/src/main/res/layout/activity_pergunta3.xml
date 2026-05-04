@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3. Como você prefere lutar?"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroupQ3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbBatman3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A) Artes marciais, gadgets e furtividade." />
+
+        <RadioButton
+            android:id="@+id/rbSpider3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="B) Agilidade, reflexos rápidos e teias." />
+
+        <RadioButton
+            android:id="@+id/rbCap3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="C) Força bruta, estratégia e um escudo indestrutível." />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnNext3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Ver Resultado" />
+
+</LinearLayout>

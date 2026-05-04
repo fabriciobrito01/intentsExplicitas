@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2. Como você gosta de se vestir?"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroupQ2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbBatman2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A) Todo preto, com uma capa intimidadora e um cinto de utilidades." />
+
+        <RadioButton
+            android:id="@+id/rbSpider2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="B) Traje vermelho e azul, colado ao corpo e com lentes nos olhos." />
+
+        <RadioButton
+            android:id="@+id/rbCap2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="C) Tático e militar, inspirado nas cores de uma bandeira e com uma estrela no peito." />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnNext2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Próxima" />
+
+</LinearLayout>
